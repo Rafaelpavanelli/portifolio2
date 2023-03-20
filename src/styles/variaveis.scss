@@ -1,0 +1,9 @@
+$background:#0B0C10;
+$paragrafos:#C5C6C7;
+$destaque:#66FCF1;
+
+@mixin Mobile {
+  @media only screen and (max-width : 736px){
+    @content;
+  }
+}

@@ -1,0 +1,144 @@
+@import '../styles/variaveis.scss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.Home{
+  background: $background;
+  padding: 0px 10%;
+  min-height: 100vh;
+  max-width: 100vw;
+  main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    h1{
+      font-family: 'Playfair Display';
+      font-weight: 200;
+      color: white;
+      font-size: 120px;
+    }
+    h2{
+      font-size: 50px;
+      color: white;
+      span{
+        color: $destaque;
+      }
+    }
+    @include Mobile{
+      h1{
+        font-size: 71.21px;
+      }
+      h2{
+        font-size: 29.67px;
+      }
+    }
+  }
+  section{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 0px;
+    h3{ 
+      font-size: 80px;
+      color: white;
+      font-family: 'Roboto';
+      font-weight: 300;
+    }
+    p{
+      text-align: center;
+      padding: 1vh;
+      width: 70%;
+      font-family: 'Roboto';
+      font-weight: 200;
+      font-size: 29.67px;
+      color: white;
+      span{
+        color: $destaque;
+      }
+    }
+   @include Mobile{
+    h3{
+      font-size: 94.95px;
+      font-weight: 100;
+      font-family: 'Roboto';
+    }
+    p{
+      font-size: 29.67px;
+      width: 100%;
+    }
+   }
+  }
+  article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30vh 0px;
+    flex-wrap: wrap;
+    h3{
+      font-size: 94.95px;
+      font-family: "Roboto";
+      font-weight: 200;
+      color: white;
+      padding: 0px 40vw 20vh;
+    }
+  span{
+    width: 20vw;
+    margin-bottom: 5vh;
+   text-align: center;
+    svg{
+      width: 164px;
+      height: 168px;
+   
+    }
+    p{
+      font-size: 30px;
+      color: white;
+    }
+    &:nth-child(2){
+      svg{
+        color: $destaque;
+      }
+      
+    }
+    &:nth-child(3){
+      color: rgb(249, 50, 196);
+    }
+    &:nth-child(4){
+      color: green;
+    }
+    &:nth-child(5){
+      color: white;
+    }
+    &:nth-child(6){
+      color: white;
+    }
+  &:nth-child(7){
+    color: blueviolet;
+  }
+      
+    }
+    @include Mobile{
+      flex-direction: column;
+      span{
+        width: auto;
+      }
+      h3{
+        padding: 0px;
+        
+      }
+    }
+  }
+.Projetos{
+  max-width: 100vw;
+  h3{
+    margin: 0px;
+    padding: 0px;
+  }
+}
+}

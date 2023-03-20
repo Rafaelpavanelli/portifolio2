@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.Home {
+  background: #0B0C10;
+  padding: 0px 10%;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+.Home main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.Home main h1 {
+  font-family: "Playfair Display";
+  font-weight: 200;
+  color: white;
+  font-size: 120px;
+}
+.Home main h2 {
+  font-size: 50px;
+  color: white;
+}
+.Home main h2 span {
+  color: #66FCF1;
+}
+@media only screen and (max-width: 736px) {
+  .Home main h1 {
+    font-size: 71.21px;
+  }
+  .Home main h2 {
+    font-size: 29.67px;
+  }
+}
+.Home section {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vh 0px;
+}
+.Home section h3 {
+  font-size: 80px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.Home section p {
+  text-align: center;
+  padding: 1vh;
+  width: 70%;
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 29.67px;
+  color: white;
+}
+.Home section p span {
+  color: #66FCF1;
+}
+@media only screen and (max-width: 736px) {
+  .Home section h3 {
+    font-size: 94.95px;
+    font-weight: 100;
+    font-family: "Roboto";
+  }
+  .Home section p {
+    font-size: 29.67px;
+    width: 100%;
+  }
+}
+.Home article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30vh 0px;
+  flex-wrap: wrap;
+}
+.Home article h3 {
+  font-size: 94.95px;
+  font-family: "Roboto";
+  font-weight: 200;
+  color: white;
+  padding: 0px 40vw 20vh;
+}
+.Home article span {
+  width: 20vw;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+.Home article span svg {
+  width: 164px;
+  height: 168px;
+}
+.Home article span p {
+  font-size: 30px;
+  color: white;
+}
+.Home article span:nth-child(2) svg {
+  color: #66FCF1;
+}
+.Home article span:nth-child(3) {
+  color: rgb(249, 50, 196);
+}
+.Home article span:nth-child(4) {
+  color: green;
+}
+.Home article span:nth-child(5) {
+  color: white;
+}
+.Home article span:nth-child(6) {
+  color: white;
+}
+.Home article span:nth-child(7) {
+  color: blueviolet;
+}
+@media only screen and (max-width: 736px) {
+  .Home article {
+    flex-direction: column;
+  }
+  .Home article span {
+    width: auto;
+  }
+  .Home article h3 {
+    padding: 0px;
+  }
+}/*# sourceMappingURL=Home_modules.css.map */

@@ -1,0 +1,97 @@
+{
+  "Projetos":[{
+    "id":1,
+    "Nome":"Advocacia",
+    "Image":"Advocacia",
+    "Descricao":"Landing page de uma firma de advocacia feito usando React a pedido de um cliente a partir de um layout em adobeXD",
+    "Github":"https://github.com/Rafaelpavanelli/Advocacia",
+    "Site":"https://franciscoadvocacia.netlify.app",
+    "Linguagens":[{
+      "Linguagem":"React"
+    },
+  {
+    "Linguagem":"Sass"
+  }]
+  },
+  {
+    "id":2,
+    "Nome":"API com Express",
+    "Image":null,
+    "Descricao":"API feito com NODE JS e Express js para conexão do back-end com o Front-end",
+    "Github":"https://github.com/Rafaelpavanelli/APIComNode",
+    "Site":null,
+    "Linguagens":[{
+      "Linguagem":"Node"
+    },
+  {
+    "Linguagem":"Express"
+  }]
+  },{
+    "id":3,
+    "Nome":"Portifólio",
+    "Image":"Portifolio",
+    "Descricao":"Primeiro portifólio que eu desenvolvi para que tentasse mostrar as minhas habilidades e minhas conexões com frameworks",
+    "Github":"https://github.com/Rafaelpavanelli/Portifolio",
+    "Site":"https://rafaelpavanelli.github.io/Portifolio/",
+    "Linguagens":[{
+      "Linguagem":"Firebase"
+    },
+  {
+    "Linguagem":"React"
+  }]
+  },
+  {
+    "id":4,
+    "Nome":"Pagina de Login",
+    "Image":null,
+    "Descricao":"Pagina de login para treinar TailWind, uma pagina que eu não fiz deploy mas ainda pode se notar o código",
+    "Github":"https://github.com/Rafaelpavanelli/LoginComReact",
+    "Site":null,
+    "Linguagens":[{
+      "Linguagem":"React"
+    },
+  {
+    "Linguagem":"Tailwind"
+  }]
+  },
+  {
+    "id":5,
+    "Nome":"PrimeFlix",
+    "Image":"Primeflix",
+    "Descricao":"Site feito durante o curso de React para ensinar a conectar o site com uma API",
+    "Github":"https://github.com/Rafaelpavanelli/Advocacia",
+    "Site":"https://franciscoadvocacia.netlify.app",
+    "Linguagens":[{
+      "Linguagem":"React"
+    },
+  {
+    "Linguagem":"Axios"
+  }]
+  }
+  ,
+  {
+    "id":6,
+    "Nome":"Livraria",
+    "Image":"Livraria",
+    "Descricao":"Site feito em react para ser um ERP de livraria para ajudar os vendedores a localizar os livros",
+    "Github":"https://github.com/Rafaelpavanelli/livrariaEmReact",
+    "Site":"https://rafaelpavanelli.github.io/livrariaEmReact/",
+    "Linguagens":[{
+      "Linguagem":"React"
+    },
+  {
+    "Linguagem":"Axios"
+  }]
+  }
+  
+
+
+
+
+
+
+
+
+
+]
+}
